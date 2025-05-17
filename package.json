@@ -1,0 +1,20 @@
+{
+	"name": "abstraction-bot",
+	"version": "1.0.0",
+	"description": "A bot who make art and post it on X",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"type": "module",
+	"keywords": ["bot", "twitter", "node", "cron", "express", "openai"],
+	"author": "Matt Guittari",
+	"license": "UNLICENSED",
+	"dependencies": {
+		"dotenv": "^16.5.0",
+		"express": "^5.1.0",
+		"node-cron": "^4.0.5",
+		"nodemon": "^3.1.10",
+		"openai": "^4.100.0"
+	}
+}
