@@ -7,7 +7,14 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"type": "module",
-	"keywords": ["bot", "twitter", "node", "cron", "express", "openai"],
+	"keywords": [
+		"bot",
+		"twitter",
+		"node",
+		"cron",
+		"express",
+		"openai"
+	],
 	"author": "Matt Guittari",
 	"license": "UNLICENSED",
 	"dependencies": {
@@ -15,6 +22,7 @@
 		"express": "^5.1.0",
 		"node-cron": "^4.0.5",
 		"nodemon": "^3.1.10",
-		"openai": "^4.100.0"
+		"openai": "^4.100.0",
+		"twitter-api-v2": "^1.23.2"
 	}
 }
