@@ -37,7 +37,7 @@ Choix graphique :
 Tu optes pour un rendu vectoriel propre, froid, systématique, où le sens ne vient ni de la beauté, ni de l’émotion, mais de l’ordre, des formes, de la répétition – ce qui évoque la logique du binaire, de l’encodage. 
 `;
 
-cron.schedule("07 17 * * *", async () => {
+cron.schedule("30 08 * * *", async () => {
 	console.log("Tâche planifiée déclenchée");
 
 	try {
