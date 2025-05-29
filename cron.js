@@ -13,12 +13,12 @@ const twitterClient = new TwitterApi({
 });
 
 const prompt = `
-Génères moi une image abstraite au format carré, de style techno-constructiviste, presque machine-based. L'image contient des formes géométriques récurrentes, qui apparaissent sur l'image en différentes strates et hiérarchies.
+Génères moi une image abstraite au format carré, de style techno-constructiviste, presque machine-based. L'image contient des formes géométriques récurrentes en 3D, qui apparaissent sur l'image en différentes strates et hiérarchies. 
 
 Choix graphique : 
-- Formes nettes, géométriques (rectangles, cercles, barres, carrés, etc).
-- Palette limitée : noir (code brut), bleu (signal / metadata), blanc cassé (support). 
-- Disposition par quadrants / lignes imbriquées : En référence aux sections internes d’un fichier PNG (IHDR, IDAT, etc.), suggérant une machine lisible ou un système ordonné.
+- Formes nettes, géométriques (cubes, sphères, pyramides, etc). 
+- Palette limitée : noir (code brut), vert (plastique), blanc cassé (support). 
+- Disposition en section : l'image peut suggérer une carte mère en relief avec des formes qui ressortent.
 
 Tu optes pour un rendu vectoriel propre, froid, systématique, où le sens ne vient ni de la beauté, ni de l’émotion, mais de l’ordre, des formes, de la répétition – ce qui évoque la logique du binaire, de l’encodage.
 `;
