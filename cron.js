@@ -17,7 +17,7 @@ Génères moi une image abstraite au format carré, de style techno-constructivi
 
 Choix graphique : 
 - Formes nettes, géométriques (rectangles, cercles, barres, carrés, etc).
-- Palette limitée : noir (code brut), yellow (signal / plastique), blanc cassé (support). 
+- Palette limitée : noir (code brut), red (signal / plastique), blanc cassé (support). 
 - Disposition par quadrants / lignes imbriquées : En référence aux sections internes d’un fichier PNG (IHDR, IDAT, etc.), suggérant une machine lisible ou un système ordonné.
 
 Tu optes pour un rendu vectoriel propre, froid, systématique, où le sens ne vient ni de la beauté, ni de l’émotion, mais de l’ordre, des formes, de la répétition – ce qui évoque la logique du binaire, de l’encodage.
