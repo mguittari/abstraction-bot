@@ -24,7 +24,7 @@ Tu optes pour un rendu vectoriel propre, froid, systématique, où le sens ne vi
 `;
 
 const prompt2 = `
-Génères moi une image abstraite au format portrait. Sur un fond blanc, l'image contient des formes récurrentes géométriques de différentes tailles, réparties en plusieurs compartiments de taille variable. La séparation entre les sections est une fine bande blanche.
+Génères moi une image abstraite au format paysage. Sur un fond blanc, l'image contient des formes récurrentes géométriques de différentes tailles, réparties en plusieurs compartiments de taille variable. La séparation entre les sections est une fine bande blanche.
 
 - Choix graphiques : formes nettes et géométriques (carrés et rectangles).
 - Palette limitée : blanc, rose clair à rose foncé.
