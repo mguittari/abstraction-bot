@@ -24,10 +24,10 @@ Tu optes pour un rendu vectoriel propre, froid, systématique, où le sens ne vi
 `;
 
 const prompt2 = `
-Génères moi une image abstraite au format paysage. Sur un fond blanc, l'image contient des formes récurrentes géométriques de différentes tailles, réparties en plusieurs compartiments de taille variable. La séparation entre les sections est une fine bande blanche.
+Génères moi une image abstraite au format carré. Sur un fond blanc, l'image contient des formes récurrentes géométriques de différentes tailles, réparties en plusieurs compartiments de taille variable. La séparation entre les sections est une fine bande blanche.
 
 - Choix graphiques : formes nettes et géométriques (carrés et rectangles).
-- Palette : toutes les couleurs de l'arc en ciel.
+- Palette : blanc, et gris clair à gris foncé.
 - Disposition en compartiments/sections. Chaque section contient une composition de forme qui lui est propre : damiers, lignes verticales ou horizontales.
 
 Tu optes pour un rendu vectoriel propre, froid, systématique, où le sens ne vient ni de la beauté, ni de l’émotion, mais de l’ordre, des formes, de la répétition – ce qui évoque la logique du binaire, de l’encodage.
@@ -40,7 +40,7 @@ async function run() {
 		const result = await openai.images.generate({
 			model: "gpt-image-1",
 			prompt: prompt2,
-			size: "1536x1024",
+			size: "1024x1024",
 			quality: "medium",
 		});
 
